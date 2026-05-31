@@ -18,6 +18,7 @@ const SideBar = () => {
     "shose",
     "shirt",
   ]);
+
   useEffect(() => {
     const fetchCategories = async () => {
       try {
