@@ -1,5 +1,14 @@
+import SideBar from "./Components/SideBar";
+import { BrowserRouter as Router } from "react-router-dom";
+
 const App = () => {
-  return <div className="text-red-500">App</div>;
+  return (
+    <Router>
+      <div className="flex h-screen">
+        <SideBar />
+      </div>
+    </Router>
+  );
 };
 
 export default App;
